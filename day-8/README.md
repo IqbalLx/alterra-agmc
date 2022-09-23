@@ -10,7 +10,7 @@
   Because of heroku is serverless, it needs some spesific Dockerfile configuration to match heroku specs. We can't expose PORT because heroku assigned our app port automatically, this also require us to make Go read port from env instead of hardcoded value.
 
 - Setup free [planetscale](https://planetscale.com/) database
-  ![planetscale](/docs/Screen%20Shot%202022-09-23%20at%2021.39.42.png "planetscale")
+  ![planetscale](docs/Screen%20Shot%202022-09-23%20at%2021.39.42.png "planetscale")
 
 - Setup new heroku app
   ![heroku](docs/Screen%20Shot%202022-09-23%20at%2021.38.16.png "heroku")
